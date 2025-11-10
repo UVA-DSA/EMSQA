@@ -1,0 +1,11 @@
+Certification Level: {level}
+
+Category: {category}
+
+Question: {question}
+
+Choices: {choices}
+
+Relevant Documents: {documents}
+
+Based on the relevant documents, think step by step from the standpoint of {category}, choose the correct answer to the following multiple-choice question. Return your final answer as a lowercase letter in strict JSON format, like: ["a"]

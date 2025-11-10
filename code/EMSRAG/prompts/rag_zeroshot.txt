@@ -1,0 +1,7 @@
+Relevant Documents: {documents}
+
+Question: {question}
+
+Choices: {choices}
+
+Based on the relevant documents, choose the correct answer to the following multiple-choice question. Return your final answer as a lowercase letter in strict JSON format, like: ["a"], ["b", "c"] (if multiple answers)
