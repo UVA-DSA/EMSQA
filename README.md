@@ -144,8 +144,8 @@ There are some other specifications you can set to run the experiments,
 Go to these folders to check how to do crawling
 
 **EMS-MCQA (close source)**
-1. app-emtprep-com
-2. jblearning-com
+check code/app-emtprep-com
+<!-- 2. jblearning-com
 
 **EMS-MCQA (open source)**
 1. careeremployer-com
@@ -176,4 +176,4 @@ Go to these folders to check how to do crawling
 9. onlinelibrary-wiley-com
 10. paramedic-medication-manual
 11. redcross-org
-12. youtube
+12. youtube -->
