@@ -1,0 +1,275 @@
+You are an expert in EMS. Choose the correct answer to the following multiple-choice question. Return your final answer as a lowercase letter in strict JSON format, like: ["a"]
+
+Question: a patient presents with bright red lips and fingernails, along with confusion and headache. as an emergency medical responder, what would be your immediate course of action?\na. administer oxygen and assess for other symptoms\nb. wait for the patient to regain consciousness\nc. provide fluids and monitor vital signs\nd. transport the patient to the hospital without any intervention
+Answer: ["a"]
+
+Question: which patient is not as likely to present with signs or symptoms other than the classic ones of heart attack?\na. diabetics\nb. men\nc. elderly\nd. women
+Answer: ["b"]
+
+Question: if an emr encounters a patient who is experiencing chest pain and requests aspirin, what should the emr do if they are not authorized to administer it?\na. administer the aspirin anyway\nb. advise the patient to take aspirin if they have it\nc. contact medical control for guidance\nd. tell the patient that they cannot take any medication
+Answer: ["c"]
+
+Question: which of the following will the patient be able to use/feel if the injury is below the neck?\na. feet\nb. arms\nc. upper legs\nd. lower legs
+Answer: ["b"]
+
+Question: what is the primary focus of pharmacodynamics in the context of medication use?\na. the absorption and distribution of drugs within the body\nb. the mechanisms by which drugs produce their effects on biological systems\nc. the chemical composition of medications and their interactions\nd. the elimination of drugs from the body after administration
+Answer: ["b"]
+
+Question: which type of drug is angel dust?\na. pcp\nb. thc\nc. lsd\nd. dmt
+Answer: ["a"]
+
+Question: use of an spo2 monitor on a person suffering from carbon monoxide poisoning will be inaccurate because\na. the oxygen has stronger bonding properties than the co2 molecule\nb. co2 is odorless and tasteless so the monitor cannot detect it\nc. carbon monoxide has a weaker bond with the hemoglobin\nd. the carbon monoxide molecule displaces the oxygen molecule inhibiting oxygen delivery
+Answer: ["d"]
+
+Question: what are the blood vessels that return blood to the heart?\na. vein\nb. artery\nc. valve\nd. ateriole
+Answer: ["a"]
+
+Question: which of the following is the most appropriate initial step when managing a patient with severe respiratory distress and suspected epiglottitis?\na. immediate intubation\nb. administering a high dose of corticosteroids\nc. providing humidified oxygen without disturbing the patient\nd. performing a tracheotomy
+Answer: ["c"]
+
+Question: common prehospital treatment for patients with severe burns includes all of the following, except:\na. crystalloid fluid boluses\nb. advanced airway care\nc. contamination prevention\nd. tetanus prophylaxis
+Answer: ["d"]
+
+Question: when a helicopter is used during nighttime operations, you should avoid:\na. shining any flashlights or spotlights at the helicopter\nb. placing flares within 25 feet of the aircraft after it has landed\nc. using any lights, whether on the ground or in the air\nd. directing light toward the ground at the landing site
+Answer: ["a"]
+
+Question: the primary cause of cardiac arrest in infants and children is -\na. anaphylaxis\nb. cardiovascular collapse following bleeding\nc. an arrhythmia\nd. an uncorrected respiratory problem
+Answer: ["d"]
+
+Question: explain the significance of the gcs score in assessing a patient's level of consciousness in emergency medical situations.\na. it determines the patient's age\nb. it helps in evaluating the patient's neurological status\nc. it indicates the patient's vital signs\nd. it is used for triaging patients based on their injuries
+Answer: ["b"]
+
+Question: _____ receptors are found in the carotid bodies and in the arch of the aorta.\na. barorecptors\nb. central chemorecptors\nc. peripheral chemorecptors\nd. stretch receptors
+Answer: ["c"]
+
+Question: your patient is a 67-year-old male who smokes cigarettes and has a history of previous mi. he complains of sudden-onset severe pain in his right leg. he also relates numbness and diminished motor function in the right leg. other assessment findings are diminished pulse, pallor, and lowered skin temperature in the right leg. you should suspect which of the following?\na. femoral artery aneurysm\nb. occlusion of the femoral artery\nc. deep venous thrombosis\nd. hypertensive encephalopathy
+Answer: ["b"]
+
+Question: what is the appropriate fluid bolus to administer for a child with hypovolemic shock with adequate myocardial function?\na. 10 ml/kg normal saline\nb. 20 ml/kg of 5% dextrose and 0.2% sodium chloride\nc. 20 ml/kg normal saline\nd. 10 ml/kg lactated ringer's
+Answer: ["c"]
+
+Question: what should the maximum amount of time spent suctioning be for a child?
+a. 10 seconds
+b. 20 seconds
+c. 15 seconds
+d. 5 seconds
+Answer: ["a"]
+
+Question: what should be not used to take the radial pulse?
+a. ring finger
+b. middle finger
+c. thumb
+d. index finger
+Answer: ["c"]
+
+Question: explain why a drop in blood pressure is considered a definite sign of hypovolemic shock in trauma patients.
+a. it indicates the body is compensating for blood loss
+b. it suggests the patient is experiencing pain
+c. it reflects a decrease in blood volume affecting circulation
+d. it shows that the patient is in a relaxed state
+Answer: ["c"]
+
+Question: what is considered a breach of patient confidentiality in a healthcare setting?
+a. discussing patient care with a supervisor
+b. discussing patient details with a family member without consent
+c. reporting patient information to law enforcement as required
+d. sharing patient care updates with other healthcare team members
+Answer: ["b"]
+
+Question: which pulse should be taken in an infant or small child?
+a. carotid
+b. brachial
+c. femoral
+d. radial
+Answer: ["b"]
+
+Question: which is most often effective when trying to control external bleeding?
+a. pressure points
+b. elevation with direct pressure
+c. direct pressure
+d. use of a tourniquet
+Answer: ["c"]
+
+Question: what route of exposure is through the skin?
+a. injection
+b. inhalation
+c. absorption
+d. ingestion
+Answer: ["c"]
+
+Question: which type of blood cell is primarily responsible for transporting oxygen throughout the body?
+a. white blood cells
+b. platelets
+c. red blood cells
+d. plasma cells
+Answer: ["c"]
+
+Question: a warm zone is the area?
+a. where treatment is performed
+b. where contamination is actually present
+c. surrounding the contamination zone
+d. where triage is performed
+Answer: ["c"]
+
+Question: your patient is a 69 year old female who has a history of diabetes. she is breathing verydeeply and very rapidly in a state of respiratory acidosis. her husband said he woke up to her breathing likethis and she would not wake up. you know that this woman is most likely in?
+a. respiratory rebound stage
+b. a diabetic coma
+c. diabetic shock
+d. respiratory alkalosis
+Answer: ["b"]
+
+Question: what is used to describe an adequate rhythm of breathing?
+a. sufficient
+b. shallow
+c. regular
+d. irregular
+Answer: ["c"]
+
+Question: what is the approximate blood volume of a newborn?
+a. more than 24 ounces
+b. 2-liters
+c. less than 12 ounces
+d. 4 liters
+Answer: ["c"]
+
+Question: a 74-year-old male is supine in bed. he opens his eyes when you call his name and is confused as to time and location. his skin is pale, warm, and dry. family reports the patient has been ill, with vomiting and diarrhea for ten days, and has not been out of bed in the past 36 hours. his blood pressure is 86/64 mm hg, he has a heart rate of 104, and he’s breathing 20 times per minute. his medical history includes diabetes, early stage lung cancer, and a myocardial infarction three years ago. which of the following conditions is the most likely cause of his presentation?
+a. insulin shock
+b. septic shock
+c. pulmonary shock
+d. cardiogenic shock
+Answer: ["b"]
+
+Question: how many doses of epinephrine can an auto-injector deliver?
+a. 2
+b. 1
+c. 3
+d. 4
+Answer: ["b"]
+
+Question: when you use the palpation method to obtain a blood pressure, the measurement you obtain is the:
+a. pulse pressure
+b. systolic blood pressure
+c. diastolic blood pressure
+d. cardiac output pressure
+Answer: ["b"]
+
+Question: the upper section of the sternum is called the?
+a. angle of louis
+b. manubrium
+c. xiphoid process
+d. thoracic cage
+Answer: ["b"]
+
+Question: the medical term for any dressing that forms an airtight seal is a(n):
+a. occlusive dressing
+b. flutter-valve dressing
+c. universal dressing
+d. self-adherent dressing
+Answer: ["a"]
+
+Question: the axis that runs perpendicular to the sagittal plane; also called the mediolateral axis.
+a. vertical axis
+b. horizontal axis
+c. media lateral axis
+d. anterior axis
+Answer: ["b"]
+
+Question: which of the following body fluids is the least potentially infectious?
+a. pericardial fluid
+b. saliva
+c. sweat
+d. synovial fluid
+Answer: ["c"]
+
+Question: tidal volume is defined as the volume of air that:
+a. is moved into or out of the lungs during a single breath
+b. remains in the lungs following expiration
+c. is moved in or out of the lungs following maximal expiration
+d. is exhaled from the lungs following a forceful exhalation
+Answer: ["a"]
+
+Question: the primary cause of cardiac arrest in infants and children is -
+a. anaphylaxis
+b. cardiovascular collapse following bleeding
+c. an arrhythmia
+d. an uncorrected respiratory problem
+Answer: ["d"]
+
+Question: the atrioventricular (av) valves of the heart include the:
+a. tricuspid and pulmonic
+b. bicuspid and aortic
+c. mitral and aortic
+d. tricuspid and mitral
+Answer: ["d"]
+
+Question: which of the following orders for aspirin is complete?
+a. aspirin 1 daily
+b. aspirin 81 mg
+c. aspirin 81 mg chewable one daily
+d. aspirin 81 mg chewable one tablet by mouth daily
+Answer: ["d"]
+
+Question: which of the following findings would be most suggestive that an elderly patient who fell has been lying on the
+a. the patient is clearly confused and does not remember what time he or she fell
+b. the call is received in the morning and cold uneaten dinner is found on the table
+c. the patient is incontinent and there are two messages on the answering machine
+d. a neighbor requested ems because the patient would not answer the telephone
+Answer: ["b"]
+
+Question: an electrical lineman was working on a high-tension power line when he received an electrical shock. a harness secured him so he did not fall. there was no loss of consciousness. he complains of pain where he was struck in the hand. you note a blackened area approximately two inches in diameter on the left palm. when you perform your secondary survey, you find a similar mark on the heel of the left foot. you see no other signs of injury. which of the following is the most appropriate action?
+a. transport the patient in a position of comfort to the closest hospital
+b. place the patient on a cardiac monitor, initiate iv access, and transport to a burn center if possible
+c. administer epinephrine prophylactically and transport to a burn center on a cardiac monitor
+d. place patient on a cardiac monitor and transport to the community hospital
+Answer: ["b"]
+
+Question: which type of muscle is responsible for involuntary movements and is found in the walls of internal organs?
+a. cardiac
+b. skeletal
+c. smooth
+d. striated
+Answer: ["c"]
+
+Question: a paramedic is assessing a trauma patient who was involved in a car accident. after the primary survey, they begin the secondary survey. if they find that the patient has a decreased level of consciousness, which specific assessments should be prioritized in the secondary survey?
+a. cardiovascular and musculoskeletal assessments
+b. neurological and respiratory assessments
+c. gastrointestinal and pelvic assessments
+d. back and limb assessments
+Answer: ["b"]
+
+Question: which is not considered a consequence of chronic alcoholism?
+a. poor nutrition
+b. hyperglycemia
+c. pancreatitis
+d. rib fractures
+Answer: ["b"]
+
+Question: which of the following is a benefit of regular exercise related to cardiovascular health?
+a. increasing cholesterol levels
+b. improving lung capacity
+c. lowering blood pressure
+d. causing muscle fatigue
+Answer: ["c"]
+
+Question: in order for the paramedic to talk and transmit an electrocardiogram simultaneously on one frequency, a system is required.
+a. simplex
+b. duplex
+c. low-band
+d. multiplex
+Answer: ["d"]
+
+Question: a paramedic is assessing a 2-month-old infant who exhibits a strong moro reflex when gently startled. what conclusion can the paramedic draw regarding the infant's neurological development?
+a. the infant may have a developmental delay
+b. the infant's neurological development appears to be normal
+c. the infant is likely experiencing pain
+d. the infant is showing signs of distress
+Answer: ["b"]
+
+Question: you suspect that a patient has a complete airway obstruction when he
+a. is wheezing
+b. cannot cough
+c. can only whisper
+d. can exhale only with significant effort
+Answer: ["b"]
+
+Question: {question}

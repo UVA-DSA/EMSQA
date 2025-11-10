@@ -1,0 +1,51 @@
+You are an expert in EMS. Choose the correct answer to the following multiple-choice question. Return your final answer as a lowercase letter in strict JSON format, like: ["a"]
+
+Question: a patient presents with bright red lips and fingernails, along with confusion and headache. as an emergency medical responder, what would be your immediate course of action?\na. administer oxygen and assess for other symptoms\nb. wait for the patient to regain consciousness\nc. provide fluids and monitor vital signs\nd. transport the patient to the hospital without any intervention
+Answer: ["a"]
+
+Question: which patient is not as likely to present with signs or symptoms other than the classic ones of heart attack?\na. diabetics\nb. men\nc. elderly\nd. women
+Answer: ["b"]
+
+Question: if an emr encounters a patient who is experiencing chest pain and requests aspirin, what should the emr do if they are not authorized to administer it?\na. administer the aspirin anyway\nb. advise the patient to take aspirin if they have it\nc. contact medical control for guidance\nd. tell the patient that they cannot take any medication
+Answer: ["c"]
+
+Question: which of the following will the patient be able to use/feel if the injury is below the neck?\na. feet\nb. arms\nc. upper legs\nd. lower legs
+Answer: ["b"]
+
+Question: what is the primary focus of pharmacodynamics in the context of medication use?\na. the absorption and distribution of drugs within the body\nb. the mechanisms by which drugs produce their effects on biological systems\nc. the chemical composition of medications and their interactions\nd. the elimination of drugs from the body after administration
+Answer: ["b"]
+
+Question: which type of drug is angel dust?\na. pcp\nb. thc\nc. lsd\nd. dmt
+Answer: ["a"]
+
+Question: use of an spo2 monitor on a person suffering from carbon monoxide poisoning will be inaccurate because\na. the oxygen has stronger bonding properties than the co2 molecule\nb. co2 is odorless and tasteless so the monitor cannot detect it\nc. carbon monoxide has a weaker bond with the hemoglobin\nd. the carbon monoxide molecule displaces the oxygen molecule inhibiting oxygen delivery
+Answer: ["d"]
+
+Question: what are the blood vessels that return blood to the heart?\na. vein\nb. artery\nc. valve\nd. ateriole
+Answer: ["a"]
+
+Question: which of the following is the most appropriate initial step when managing a patient with severe respiratory distress and suspected epiglottitis?\na. immediate intubation\nb. administering a high dose of corticosteroids\nc. providing humidified oxygen without disturbing the patient\nd. performing a tracheotomy
+Answer: ["c"]
+
+Question: common prehospital treatment for patients with severe burns includes all of the following, except:\na. crystalloid fluid boluses\nb. advanced airway care\nc. contamination prevention\nd. tetanus prophylaxis
+Answer: ["d"]
+
+Question: when a helicopter is used during nighttime operations, you should avoid:\na. shining any flashlights or spotlights at the helicopter\nb. placing flares within 25 feet of the aircraft after it has landed\nc. using any lights, whether on the ground or in the air\nd. directing light toward the ground at the landing site
+Answer: ["a"]
+
+Question: the primary cause of cardiac arrest in infants and children is -\na. anaphylaxis\nb. cardiovascular collapse following bleeding\nc. an arrhythmia\nd. an uncorrected respiratory problem
+Answer: ["d"]
+
+Question: explain the significance of the gcs score in assessing a patient's level of consciousness in emergency medical situations.\na. it determines the patient's age\nb. it helps in evaluating the patient's neurological status\nc. it indicates the patient's vital signs\nd. it is used for triaging patients based on their injuries
+Answer: ["b"]
+
+Question: _____ receptors are found in the carotid bodies and in the arch of the aorta.\na. barorecptors\nb. central chemorecptors\nc. peripheral chemorecptors\nd. stretch receptors
+Answer: ["c"]
+
+Question: your patient is a 67-year-old male who smokes cigarettes and has a history of previous mi. he complains of sudden-onset severe pain in his right leg. he also relates numbness and diminished motor function in the right leg. other assessment findings are diminished pulse, pallor, and lowered skin temperature in the right leg. you should suspect which of the following?\na. femoral artery aneurysm\nb. occlusion of the femoral artery\nc. deep venous thrombosis\nd. hypertensive encephalopathy
+Answer: ["b"]
+
+Question: what is the appropriate fluid bolus to administer for a child with hypovolemic shock with adequate myocardial function?\na. 10 ml/kg normal saline\nb. 20 ml/kg of 5% dextrose and 0.2% sodium chloride\nc. 20 ml/kg normal saline\nd. 10 ml/kg lactated ringer's
+Answer: ["c"]
+
+Question: {question}

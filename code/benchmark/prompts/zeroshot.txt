@@ -1,0 +1,6 @@
+Question: {question}
+
+Choices:
+{choices}
+
+Return your final answer as a lowercase letter in strict JSON format, like: ["a"]

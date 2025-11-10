@@ -1,0 +1,498 @@
+You are an expert in EMS. Choose the correct answer to the following multiple-choice question. Return your final answer as a lowercase letter in strict JSON format, like: ["a"]
+
+Question: a patient presents with bright red lips and fingernails, along with confusion and headache. as an emergency medical responder, what would be your immediate course of action?\na. administer oxygen and assess for other symptoms\nb. wait for the patient to regain consciousness\nc. provide fluids and monitor vital signs\nd. transport the patient to the hospital without any intervention
+Answer: ["a"]
+
+Question: which patient is not as likely to present with signs or symptoms other than the classic ones of heart attack?\na. diabetics\nb. men\nc. elderly\nd. women
+Answer: ["b"]
+
+Question: if an emr encounters a patient who is experiencing chest pain and requests aspirin, what should the emr do if they are not authorized to administer it?\na. administer the aspirin anyway\nb. advise the patient to take aspirin if they have it\nc. contact medical control for guidance\nd. tell the patient that they cannot take any medication
+Answer: ["c"]
+
+Question: which of the following will the patient be able to use/feel if the injury is below the neck?\na. feet\nb. arms\nc. upper legs\nd. lower legs
+Answer: ["b"]
+
+Question: what is the primary focus of pharmacodynamics in the context of medication use?\na. the absorption and distribution of drugs within the body\nb. the mechanisms by which drugs produce their effects on biological systems\nc. the chemical composition of medications and their interactions\nd. the elimination of drugs from the body after administration
+Answer: ["b"]
+
+Question: which type of drug is angel dust?\na. pcp\nb. thc\nc. lsd\nd. dmt
+Answer: ["a"]
+
+Question: use of an spo2 monitor on a person suffering from carbon monoxide poisoning will be inaccurate because\na. the oxygen has stronger bonding properties than the co2 molecule\nb. co2 is odorless and tasteless so the monitor cannot detect it\nc. carbon monoxide has a weaker bond with the hemoglobin\nd. the carbon monoxide molecule displaces the oxygen molecule inhibiting oxygen delivery
+Answer: ["d"]
+
+Question: what are the blood vessels that return blood to the heart?\na. vein\nb. artery\nc. valve\nd. ateriole
+Answer: ["a"]
+
+Question: which of the following is the most appropriate initial step when managing a patient with severe respiratory distress and suspected epiglottitis?\na. immediate intubation\nb. administering a high dose of corticosteroids\nc. providing humidified oxygen without disturbing the patient\nd. performing a tracheotomy
+Answer: ["c"]
+
+Question: common prehospital treatment for patients with severe burns includes all of the following, except:\na. crystalloid fluid boluses\nb. advanced airway care\nc. contamination prevention\nd. tetanus prophylaxis
+Answer: ["d"]
+
+Question: when a helicopter is used during nighttime operations, you should avoid:\na. shining any flashlights or spotlights at the helicopter\nb. placing flares within 25 feet of the aircraft after it has landed\nc. using any lights, whether on the ground or in the air\nd. directing light toward the ground at the landing site
+Answer: ["a"]
+
+Question: the primary cause of cardiac arrest in infants and children is -\na. anaphylaxis\nb. cardiovascular collapse following bleeding\nc. an arrhythmia\nd. an uncorrected respiratory problem
+Answer: ["d"]
+
+Question: explain the significance of the gcs score in assessing a patient's level of consciousness in emergency medical situations.\na. it determines the patient's age\nb. it helps in evaluating the patient's neurological status\nc. it indicates the patient's vital signs\nd. it is used for triaging patients based on their injuries
+Answer: ["b"]
+
+Question: _____ receptors are found in the carotid bodies and in the arch of the aorta.\na. barorecptors\nb. central chemorecptors\nc. peripheral chemorecptors\nd. stretch receptors
+Answer: ["c"]
+
+Question: your patient is a 67-year-old male who smokes cigarettes and has a history of previous mi. he complains of sudden-onset severe pain in his right leg. he also relates numbness and diminished motor function in the right leg. other assessment findings are diminished pulse, pallor, and lowered skin temperature in the right leg. you should suspect which of the following?\na. femoral artery aneurysm\nb. occlusion of the femoral artery\nc. deep venous thrombosis\nd. hypertensive encephalopathy
+Answer: ["b"]
+
+Question: what is the appropriate fluid bolus to administer for a child with hypovolemic shock with adequate myocardial function?\na. 10 ml/kg normal saline\nb. 20 ml/kg of 5% dextrose and 0.2% sodium chloride\nc. 20 ml/kg normal saline\nd. 10 ml/kg lactated ringer's
+Answer: ["c"]
+
+Question: explain the role of the diaphragm in the respiratory process. how does its movement facilitate breathing?
+a. it filters air before it enters the lungs
+b. it contracts to create negative pressure, allowing air to flow into the lungs
+c. it produces mucus to trap pathogens
+d. it regulates the exchange of gases in the alveoli
+Answer: ["b"]
+
+Question: impaired tissue perfusion caused by widespread infection of the blood and invasion of microorganisms in the
+a. anaphylactic shock
+b. hypovolemic shock
+c. septic shock
+d. neurogenic shock
+Answer: ["c"]
+
+Question: to which level of training is the first to arrive on scene most often trained?
+a. emt
+b. aemt
+c. paramedic
+d. emr
+Answer: ["d"]
+
+Question: what should be done to limit the patient's eye movement when there is an injury to one eye?
+a. bandage the entire head
+b. cover the injured eye
+c. cover both eyes
+d. use sunglasses
+Answer: ["c"]
+
+Question: which statement about eye protection is correct?
+a. should protect you from the front and sides
+b. should protect you from the front only
+c. should protect you from the front, sides and top
+d. should protect you from the sides only
+Answer: ["a"]
+
+Question: which prefix means "slow"?
+a. tachy-
+b. hypo-
+c. brady-
+d. vaso-
+Answer: ["c"]
+
+Question: which is an important question to ask if the patient is having a diabetic emergency?
+a. when did you last eat?
+b. how long have you felt this way?
+c. how did this happen?
+d. do you have any allergies?
+Answer: ["a"]
+
+Question: what are the three main components assessed in the pediatric assessment triangle (pat)?
+a. appearance, breathing, circulation
+b. heart rate, blood pressure, temperature
+c. skin color, level of consciousness, reflexes
+d. respiratory rate, oxygen saturation, capillary refill
+Answer: ["a"]
+
+Question: what is the common emergency medication that individuals with bee allergies carry to counteract anaphylaxis?
+a. antihistamines
+b. epinephrine auto-injectors
+c. inhalers
+d. steroids
+Answer: ["b"]
+
+Question: what is the primary purpose of a quick visual check in emergency medical response?
+a. to perform a detailed physical examination
+b. to assess for life-threatening conditions and obvious injuries
+c. to gather patient history
+d. to administer first aid
+Answer: ["b"]
+
+Question: almost what amount of a child's total blood volume can be lost before blood pressure is affected by blood loss?
+a. one-third
+b. one-half
+c. three-fourths
+d. two-thirds
+Answer: ["b"]
+
+Question: before what week is it considered a miscarriage?
+a. 26th
+b. 28th
+c. 30th
+d. 32nd
+Answer: ["a"]
+
+Question: which part of the patient should be placed in a sling so it rests across the patient's chest when a rib fracture is present?
+a. upper arm of the uninjured side
+b. forearm of the injured side
+c. forearm of the uninjured side
+d. upper arm of the injured side
+Answer: ["b"]
+
+Question: a patient has fallen from a height and is suspected of having a spinal injury. which steps should you take to ensure proper spinal immobilization using a backboard?
+a. lift the patient directly onto the backboard without any support
+b. secure the patient to the backboard after assessing their airway
+c. use a log-roll technique to position the patient onto the backboard
+d. place the patient in a sitting position before securing them
+Answer: ["c"]
+
+Question: purposely improperly caring for injuries that further injury or caused unnecessary discomfort is called
+a. proximate causation
+b. breach of duty
+c. abandonment
+d. fair game
+Answer: ["a"]
+
+Question: what do most problems with defibrillator operations involve?
+a. poor power source
+b. cables that are too short
+c. number of available leads
+d. poor attachment of the pads
+Answer: ["d"]
+
+Question: in the context of pharmacology, what do indications refer to when administering medications?
+a. the potential side effects of a medication
+b. the specific conditions or symptoms that justify the use of a medication
+c. the methods of medication delivery
+d. the contraindications associated with a medication
+Answer: ["b"]
+
+Question: you are responding to a 911 call for a 40-year-old man who may possibly be having a psychotic episode. when you enter the scene, which of the following would you least likely do first?
+a. position yourself in the room so you are close to an exit and the patient is not in the middle, blocking your path
+b. scan the room for objects that could potentially be used as weapons
+c. ask the patient about his medical history
+d. obtain information from family or people present who can give background information
+Answer: ["d"]
+
+Question: you have a patient that requires intubation. the epiglottis is soft and floppy. which of the following would be the most appropriate airway maneuver?
+a. dual lumen airway
+b. the macintosh blade in the vallecula
+c. the macintosh blade over the epiglottis
+d. the miller blade to lift the epiglottis
+Answer: ["d"]
+
+Question: if a new training program is introduced that adds an additional level to the phecc standards, how many levels would there be in total?
+a. 8
+b. 6
+c. 5
+d. 7
+Answer: ["d"]
+
+Question: choose matching definition. a graph used in hemiodilis is:
+a. an artificial connection between a vein and an artery
+b. altered mental status; swallowed acids or alkalis
+c. aura; tonic; clonic; postictial
+d. altered mental status; diabetes history; ability to swallow
+Answer: ["a"]
+
+Question: what is a coup-contrecoup injury caused by?
+a. when a patient falls off of a ladder and sustains an impact to the head that fractures the skull, with no significant movement of the head
+b. when a patient breaks their ankle
+c. it is caused by a concussion, which results from the stretching and tearing of brain tissue
+d. when a patient is in a severe car accident, in which there is lots of head movement with great force
+Answer: ["d"]
+
+Question: which of the following indicates the need for immediate defibrillation?
+a. asystole
+b. pea
+c. pulseless ventricular tachycardia
+d. atrial fibrillation
+Answer: ["c"]
+
+Question: what is the minimum age patient that should have their blood pressure taken?
+a. 2
+b. 4
+c. 5
+d. 3
+Answer: ["d"]
+
+Question: while assessing your patient, you notice the skin is pale, cool, and clammy. this is a ___.
+a. complaint
+b. symptom
+c. sign
+d. condition
+Answer: ["c"]
+
+Question: when providing artificial ventilation to infants and small children, the correct rate is to provide one breath every ___ seconds.
+a. 2
+b. 3
+c. 4
+d. 5
+Answer: ["b"]
+
+Question: what are the three types of names assigned to a medication?
+a. chemical name, generic name, brand name
+b. chemical name, common name, trade name
+c. generic name, brand name, street name
+d. chemical name, generic name, pharmaceutical name
+Answer: ["a"]
+
+Question: you are assessing a patient who has suffered from a significant fall. he begins to vomit bright, red blood. this is called
+a. melena
+b. hemoptysis
+c. hematuria
+d. hematemesis
+Answer: ["d"]
+
+Question: where is a nasal cannula to be placed, and what is the maximum flow rate?
+a. placed over the ears and into the nostrils, maximum flow rate is 6 l/min
+b. placed over the ears and into the nose, maximum flow rate is 8 l/min
+c. placed on the nose and mouth, maximum flow rate is 5 l/min
+d. place within the trachea, maximum flow rate is 6 l/min
+Answer: ["a"]
+
+Question: you are on-scene with a 50-year-old female who is experiencing substernal chest pressure. in mid-sentence she stops talking, rolls her eyes back, and has slow, snoring respirations. your next step is to
+a. begin deep and fast chest compressions
+b. apply aed pads
+c. check for a carotid pulse
+d. ventilate twice with a bag-valve mask
+Answer: ["c"]
+
+Question: how many ribs do men have?
+a. fewer than women
+b. the same as women
+c. more than women
+Answer: ["b"]
+
+Question: which contains a medication that can be sprayed directly into the patient's airway?
+a. oxygen
+b. nitroglycerin
+c. inhaler
+d. injector
+Answer: ["c"]
+
+Question: for which of the following patients may nitrous oxide be contraindicated?
+a. recovered alcoholic
+b. person taking cns sedatives
+c. emphysema
+d. b and c
+e. all of the above
+Answer: ["e"]
+
+Question: which of the following is not a common sign of hypovolemic shock?
+a. altered level of consciousness
+b. tachycardia
+c. fever
+d. weak peripheral pulses
+Answer: ["c"]
+
+Question: chemical changes that influence the rate and depth of breathing are detected by:
+a. medullary receptors
+b. baroreceptors
+c. carotid bodies
+d. chemoreceptors
+Answer: ["d"]
+
+Question: patients with electrical burns should be given enough isotonic crystalloid to maintain a urine output of _______ ml/kg per hour.
+a. 1
+b. 2
+c. 4
+d. 4
+Answer: ["a"]
+
+Question: the least harmful form of ionizing radiation is:
+a. gamma
+b. neutron
+c. beta
+d. alpha
+Answer: ["d"]
+
+Question: hemostasis is a highly complex proves that allows the body to stop bleeding through
+a. vascular spasm
+b. coagulation
+c. platelet plugging
+d. all of the above
+Answer: ["d"]
+
+Question: what dosage is a pediatric fluid bolus given?
+a. 10-20 ml/kg x2 if needed
+b. 5-10 ml/kg x2 if needed
+c. 30-35 ml/kg x4 if needed
+Answer: ["a"]
+
+Question: which of the following suffixes refers to drooping?
+a. -trophic
+b. -ptosis
+c. -pnea
+d. -rrhea
+Answer: ["b"]
+
+Question: what is one key question you should ask a patient experiencing chest pain?
+a. how long have you been feeling anxious?
+b. what medications are you currently taking?
+c. can you describe the pain you are feeling?
+d. have you eaten anything recently?
+Answer: ["c"]
+
+Question: the most appropriate method to confirm tube placement following endotracheal intubation in the field is:
+a. auscultation of breath sounds
+b. visualization of tube passing through the vocal cords
+c. end-tidal co2 monitoring
+d. chest x-ray
+Answer: ["c"]
+
+Question: detoxification of toxic substances, production of bile, and production of certain clotting factors are all functions of the:
+a. kidneys
+b. pancreas
+c. gallbladder
+d. liver
+Answer: ["d"]
+
+Question: glycogenolysis is the physiologic process in which:
+a. the kidneys produce additional glucose
+b. glycogen is converted to glucose
+c. glucose is converted to glycogen
+d. the pancreas secretes glycogen
+Answer: ["b"]
+
+Question: what is the primary use of ondansetron in emergency medical services?
+a. to treat severe allergic reactions
+b. to prevent nausea and vomiting
+c. to manage pain during transport
+d. to stabilize blood pressure
+Answer: ["b"]
+
+Question: the skin of an elderly person is more susceptible to injury from even minor trauma because of a decrease in:
+a. collagen
+b. synovial fluid
+c. sebum
+d. elastin
+Answer: ["a"]
+
+Question: for pediatric patients, which anatomical landmark is recommended for the insertion of an intraosseous needle?
+a. anterior aspect of the distal femur
+b. lateral aspect of the proximal tibia
+c. medial aspect of the distal radius
+d. posterior aspect of the proximal humerus
+Answer: ["b"]
+
+Question: what is the appropriate ventilatory rate to deliver bag-valve-mask ventilations to an infant who is in respiratory arrest?
+a. 20 ventilations per minute
+b. 12 ventilations per minute
+c. 40 ventilations per minute
+d. 30 ventilations per minute
+Answer: ["a"]
+
+Question: a patient receiving abciximab suddenly exhibits confusion and bradycardia. as a healthcare provider, what is the most appropriate initial action?
+a. administer a dose of aspirin
+b. monitor the patient's vital signs and notify the physician
+c. continue the infusion of abciximab without interruption
+d. provide the patient with a glucose supplement
+Answer: ["b"]
+
+Question: using medical terminology, what does the prefix anti- indicate
+a. against
+b. without
+c. not pertaining to
+d. with
+Answer: ["a"]
+
+Question: what does a hemoglobin saturation value of 100% mean?
+a. 100% of hemoglobin molecules have no oxygen on them
+b. 100% of hemoglobin molecules are at the lungs
+c. 100% of hemoglobin molecules are carrying as much oxygen as they can
+d. 100% of hemoglobin molecules are at the tissues
+Answer: ["c"]
+
+Question: you respond to a 22-year-old male who is complaining of a rapid onset of chest pain. the patient states that the pain is tearing and sharp and that it started when he surfaced from a scuba dive from 60 feet down. the patient's diving partner states that the patient surfaced too rapidly. what is this patient most likely suffering from?
+a. acute pulmonary edema
+b. nitrogen narcosis
+c. decompression sickness
+d. pulmonary embolism
+Answer: ["d"]
+
+Question: at the federal level, nhtsa developed a document called the national ems scope of practice model, but on a state or local level, the aemt scope of practice is delineated in a comprehensive guide known as:
+a. ethical response
+b. medical direction
+c. protocols
+d. standing orders
+Answer: ["c"]
+
+Question: a patient with a closed head injury should be closely monitored for all except which one of the following?
+a. hypovolemic shock
+b. respiratory alkalosis
+c. hypoxic seizures
+d. hemopneumothorax
+Answer: ["d"]
+
+Question: explain how the side effects of atropine, such as dry mouth and urinary retention, relate to its pharmacological action as an anticholinergic agent.
+a. they are unrelated to its action
+b. they result from increased acetylcholine activity
+c. they occur due to decreased parasympathetic activity
+d. they are caused by its interaction with beta receptors
+Answer: ["c"]
+
+Question: which of the following considerations is essential when assessing a patient with a high body mass index (bmi)?
+a. pulse oximeter placement, auscultation, and blood glucose monitoring
+b. blood pressure cuff size, airway management, and ecg lead placement
+c. ecg lead placement, medication dosage calculations, and auscultation
+d. blood pressure cuff size, oxygen delivery methods, and patient positioning
+Answer: ["d"]
+
+Question: a 7-year-old female presents with signs of shock after a fall. she is lethargic, her skin is cool and mottled, and her blood pressure reads 88/50 mm hg. after administering high-flow oxygen and ensuring her warmth, your next step should be to:
+a. delay intravenous access until her condition worsens
+b. establish intravenous access at the scene and then transport her
+c. place her in a supine position and transport immediately
+d. transport her without delay while establishing intravenous access en route
+Answer: ["d"]
+
+Question: a patient is short of breath after impact with the steering wheel in a motor vehicle crash. breath sounds are diminished on the left. which of the following conditions is most likely the cause of the patient’s complaint?
+a. simple pneumothorax
+b. tension pneumothorax
+c. pulmonary contusion
+d. cardiac tamponade
+Answer: ["a"]
+
+Question: what vein is the multi-lumen catheter normally placed?
+a. jugular
+b. carotid
+c. cephalic
+d. saphenous
+Answer: ["a"]
+
+Question: you enter a college dorm room to find a patient under a blanket in the dark. he has complained of a severe headache, stiff neck, fever, and vomiting for several days. you suspect the patient has:
+a. influenza
+b. clostridium difficile
+c. hepatitis b
+d. bacterial meningitis
+Answer: ["d"]
+
+Question: what is the primary cause of subcutaneous emphysema as described in emergency medical protocols?
+a. a viral infection in the respiratory system
+b. air trapped beneath the skin due to an injury
+c. fluid accumulation in the lungs
+d. a fracture in the rib cage
+Answer: ["b"]
+
+Question: in a scenario where a patient presents with a compromised airway due to excessive vomiting, which of the following suctioning techniques should be prioritized to ensure patient safety?
+a. insert the suction tip until it hits the back of the airway and continuously suction until the airway is clear
+b. suction for a maximum of 10 seconds while withdrawing the catheter, then reassess the airway
+c. only suction for vomit and avoid suctioning blood
+d. wear safety glasses and suction as far as you can see in the airway
+Answer: ["b"]
+
+Question: in a scenario where a paramedic is treating a patient with a suspected abdominal injury after a car accident, which action should be prioritized based on bls guidelines?
+a. administering pain relief immediately
+b. performing a rapid assessment of vital signs and airway management
+c. transporting the patient without further assessment
+d. documenting the incident details before providing care
+Answer: ["b"]
+
+Question: explain the significance of a paco2 level of 55 mmhg in the context of respiratory function.
+a. it indicates hyperventilation and respiratory alkalosis
+b. it suggests normal respiratory function
+c. it reflects hypoventilation and can lead to respiratory acidosis
+d. it shows a compensatory mechanism for metabolic alkalosis
+Answer: ["c"]
+
+Question: {question}

@@ -1,0 +1,19 @@
+You are an expert in EMS. Choose the correct answer to the following multiple-choice question. Return your final answer as a lowercase letter in strict JSON format, like: ["a"]
+
+Question: a patient presents with bright red lips and fingernails, along with confusion and headache. as an emergency medical responder, what would be your immediate course of action?\na. administer oxygen and assess for other symptoms\nb. wait for the patient to regain consciousness\nc. provide fluids and monitor vital signs\nd. transport the patient to the hospital without any intervention
+Answer: ["a"]
+
+
+Question: which type of drug is angel dust?\na. pcp\nb. thc\nc. lsd\nd. dmt
+Answer: ["a"]
+
+
+Question: when a helicopter is used during nighttime operations, you should avoid:\na. shining any flashlights or spotlights at the helicopter\nb. placing flares within 25 feet of the aircraft after it has landed\nc. using any lights, whether on the ground or in the air\nd. directing light toward the ground at the landing site
+Answer: ["a"]
+
+
+Question: explain the significance of the gcs score in assessing a patient's level of consciousness in emergency medical situations.\na. it determines the patient's age\nb. it helps in evaluating the patient's neurological status\nc. it indicates the patient's vital signs\nd. it is used for triaging patients based on their injuries
+Answer: ["b"]
+
+
+Question: {question}
