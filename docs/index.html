@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <!-- Primary Meta Tags -->
+  <meta name="title" content="Expert-Guided Prompting and Retrieval-Augmented Generation for Emergency Medical Service Question Answering">
+  <meta name="description" content="Work in AAAI 26">
+  <meta name="keywords" content="Medical Question Answering, Large Language Models, Retrieval-Augmented Generation">
+  <meta name="author" content="Xueren Ge, Sahil Murtaza, Anthony Cortez, Homa Alemzadeh">
+  <meta name="robots" content="index, follow">
+  <meta name="language" content="English">
+  
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="article">
+  <!-- TODO: Replace with your institution or lab name -->
+  <meta property="og:site_name" content="University of Virginia">
+  <!-- TODO: Same as paper title above -->
+  <meta property="og:title" content="Expert-Guided Prompting and Retrieval-Augmented Generation for Emergency Medical Service Question Answering">
+  <!-- TODO: Same as description above -->
+  <meta property="og:description" content="Work in AAAI 26">
+  <!-- TODO: Replace with your actual website URL -->
+  <meta property="og:url" content="https://uva-dsa.github.io/EMSQA">
+  <!-- TODO: Create a 1200x630px preview image and update path -->
+  <meta property="og:image" content="">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="PAPER_TITLE - Research Preview">
+  <meta property="article:published_time" content="2024-01-01T00:00:00.000Z">
+  <meta property="article:author" content="FIRST_AUTHOR_NAME">
+  <meta property="article:section" content="Research">
+  <meta property="article:tag" content="KEYWORD1">
+  <meta property="article:tag" content="KEYWORD2">
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <!-- TODO: Replace with your lab/institution Twitter handle -->
+  <meta name="twitter:site" content="@YOUR_TWITTER_HANDLE">
+  <!-- TODO: Replace with first author's Twitter handle -->
+  <meta name="twitter:creator" content="@AUTHOR_TWITTER_HANDLE">
+  <!-- TODO: Same as paper title above -->
+  <meta name="twitter:title" content="PAPER_TITLE">
+  <!-- TODO: Same as description above -->
+  <meta name="twitter:description" content="BRIEF_DESCRIPTION_OF_YOUR_RESEARCH_CONTRIBUTION_AND_FINDINGS">
+  <!-- TODO: Same as social preview image above -->
+  <meta name="twitter:image" content="">
+  <meta name="twitter:image:alt" content="PAPER_TITLE - Research Preview">
+
+  <!-- Academic/Research Specific -->
+  <meta name="citation_title" content="Expert-Guided Prompting and Retrieval-Augmented Generation for Emergency Medical Service Question Answering">
+  <meta name="citation_author" content="Ge, Xueren">
+  <meta name="citation_author" content="Murtaza, Sahil">
+  <meta name="citation_author" content="Cortez, Anthony">
+  <meta name="citation_author" content="Alemzadeh, Homa">
+  <meta name="citation_publication_date" content="2025">
+  <meta name="citation_conference_title" content="AAAI 2026">
+  <meta name="citation_pdf_url" content="">
+  
+  <!-- Additional SEO -->
+  <meta name="theme-color" content="#2563eb">
+  <meta name="msapplication-TileColor" content="#2563eb">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  
+  <!-- Preconnect for performance -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://ajax.googleapis.com">
+  <link rel="preconnect" href="https://documentcloud.adobe.com">
+  <link rel="preconnect" href="https://cdn.jsdelivr.net">
+
+
+  <!-- TODO: Replace with your paper title and authors -->
+  <title>Expert-Guided Prompting and Retrieval-Augmented Generation for Emergency Medical Service Question Answering — Ge, Murtaza, Cortez, Alemzadeh | UVA | AAAI 2026</title>
+  
+  <!-- Favicon and App Icons -->
+  <link rel="icon" type="image/x-icon" href="">
+  <link rel="apple-touch-icon" href="">
+  
+  <!-- Critical CSS - Load synchronously -->
+  <link rel="stylesheet" href="static/css/bulma.min.css">
+  <link rel="stylesheet" href="static/css/index.css">
+  
+  <!-- Non-critical CSS - Load asynchronously -->
+  <link rel="preload" href="static/css/bulma-carousel.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <link rel="preload" href="static/css/bulma-slider.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <link rel="preload" href="static/css/fontawesome.all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <link rel="preload" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  
+  <!-- Fallback for browsers that don't support preload -->
+  <noscript>
+    <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
+    <link rel="stylesheet" href="static/css/bulma-slider.min.css">
+    <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  </noscript>
+  
+  <!-- Fonts - Optimized loading -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <!-- Defer non-critical JavaScript -->
+  <script defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+  <script defer src="static/js/fontawesome.all.min.js"></script>
+  <script defer src="static/js/bulma-carousel.min.js"></script>
+  <script defer src="static/js/bulma-slider.min.js"></script>
+  <script defer src="static/js/index.js"></script>
+  
+  <!-- Structured Data for Academic Papers -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ScholarlyArticle",
+    "headline": "PAPER_TITLE",
+    "description": "BRIEF_DESCRIPTION_OF_YOUR_RESEARCH_CONTRIBUTION_AND_FINDINGS",
+    "author": [
+      {
+        "@type": "Person",
+        "name": "FIRST_AUTHOR_NAME",
+        "affiliation": {
+          "@type": "Organization",
+          "name": "INSTITUTION_NAME"
+        }
+      },
+      {
+        "@type": "Person",
+        "name": "SECOND_AUTHOR_NAME",
+        "affiliation": {
+          "@type": "Organization",
+          "name": "INSTITUTION_NAME"
+        }
+      }
+    ],
+    "datePublished": "2024-01-01",
+    "publisher": {
+      "@type": "Organization",
+      "name": "CONFERENCE_OR_JOURNAL_NAME"
+    },
+    "url": "https://YOUR_DOMAIN.com/YOUR_PROJECT_PAGE",
+    "image": "https://YOUR_DOMAIN.com/static/images/social_preview.png",
+    "keywords": ["KEYWORD1", "KEYWORD2", "KEYWORD3", "machine learning", "computer vision"],
+    "abstract": "FULL_ABSTRACT_TEXT_HERE",
+    "citation": "BIBTEX_CITATION_HERE",
+    "isAccessibleForFree": true,
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "mainEntity": {
+      "@type": "WebPage",
+      "@id": "https://YOUR_DOMAIN.com/YOUR_PROJECT_PAGE"
+    },
+    "about": [
+      {
+        "@type": "Thing",
+        "name": "RESEARCH_AREA_1"
+      },
+      {
+        "@type": "Thing", 
+        "name": "RESEARCH_AREA_2"
+      }
+    ]
+  }
+  </script>
+  
+  <!-- Website/Organization Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "INSTITUTION_OR_LAB_NAME",
+    "url": "https://YOUR_INSTITUTION_WEBSITE.com",
+    "logo": "https://YOUR_DOMAIN.com/static/images/favicon.ico",
+    "sameAs": [
+      "https://twitter.com/YOUR_TWITTER_HANDLE",
+      "https://github.com/YOUR_GITHUB_USERNAME"
+    ]
+  }
+  </script>
+</head>
+<body>
+
+
+  <!-- Scroll to Top Button -->
+  <button class="scroll-to-top" onclick="scrollToTop()" title="Scroll to top" aria-label="Scroll to top">
+    <i class="fas fa-chevron-up"></i>
+  </button>
+
+  <main id="main-content">
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered">
+          <div class="column has-text-centered">
+            <!-- TODO: Replace with your paper title -->
+            <h1 class="title is-1 publication-title">Expert-Guided Prompting and Retrieval-Augmented Generation for Emergency Medical Service Question Answering</h1>
+            <div class="is-size-5 publication-authors">
+              <!-- TODO: Replace with your paper authors and their personal links -->
+              <span class="author-block">
+                <a href="https://xueren-ge.github.io/" target="_blank">Xueren Ge</a></span>
+                <span class="author-block">
+                  <a href="https://www.linkedin.com/in/sahil-murtaza-716338262/" target="_blank">Sahil Murtaza</a></span>
+                  <span class="author-block">
+                    <a href="https://med.virginia.edu/bht/trainee/cortez-anthony/" target="_blank">Anthony Cortez</a>
+                  </span>
+                  <span class="author-block">
+                    <a href="https://homa-alem.github.io/" target="_blank">Homa Alemzadeh</a>
+                  </span>
+                  </div>
+
+                  <div class="is-size-5 publication-authors">
+                    <!-- TODO: Replace with your institution and conference/journal info -->
+                    <span class="author-block">University of Virginia<br>AAAI 2026</span>
+                  </div>
+
+                  <div class="column has-text-centered">
+                    <div class="publication-links">
+                         <!-- TODO: Update with your arXiv paper ID -->
+                      <span class="link-block">
+                        <a href="" target="_blank"
+                        class="external-link button is-normal is-rounded is-dark">
+                        <span class="icon">
+                          <i class="fas fa-file-pdf"></i>
+                        </span>
+                        <span>Paper</span>
+                      </a>
+                    </span>
+
+                    <!-- TODO: Add your supplementary material PDF or remove this section -->
+                    <span class="link-block">
+                      <a href="" target="_blank"
+                      class="external-link button is-normal is-rounded is-dark">
+                      <span class="icon">
+                        <i class="fas fa-file-pdf"></i>
+                      </span>
+                      <span>Supplementary</span>
+                    </a>
+                  </span>
+
+                  <!-- TODO: Replace with your GitHub repository URL -->
+                  <span class="link-block">
+                    <a href="https://github.com/UVA-DSA/EMSQA" target="_blank"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fab fa-github"></i>
+                    </span>
+                    <span>Code</span>
+                  </a>
+                </span>
+
+                <!-- TODO: Update with your arXiv paper ID
+                <span class="link-block">
+                  <a href="" target="_blank"
+                  class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                    <i class="ai ai-arxiv"></i>
+                  </span>
+                  <span>arXiv</span> -->
+
+                
+                  <!-- Video -->
+                  <span class="link-block">
+                    <a href="" target="_blank"
+                      class="external-link button is-normal is-rounded is-dark">
+                      <span class="icon"><i class="fab fa-youtube"></i></span>
+                      <span>Video</span>
+                    </a>
+                  </span>
+
+                  <!-- Slides -->
+                  <span class="link-block">
+                    <a href="" target="_blank"
+                      class="external-link button is-normal is-rounded is-dark">
+                      <span class="icon"><i class="fas fa-file-powerpoint"></i></span>
+                      <span>Slides</span>
+                    </a>
+                  </span>
+
+                  <!-- Dataset (Hugging Face) -->
+                  <span class="link-block">
+                    <a href="https://huggingface.co/datasets/Xueren/EMS-MCQA" target="_blank" rel="noopener"
+                      class="external-link button is-normal is-rounded is-dark">
+                      <span class="icon">
+                        <img class="hf-icon" src="https://huggingface.co/front/assets/huggingface_logo-noborder.svg" alt="Hugging Face">
+                      </span>
+                      <span>Dataset</span>
+                    </a>
+                  </span>
+
+
+                  <span class="link-block">
+                    <a href="https://huggingface.co/datasets/Xueren/EMS-Knowledge" target="_blank" rel="noopener"
+                      class="external-link button is-normal is-rounded is-dark">
+                      <span class="icon">
+                        <img class="hf-icon" src="https://huggingface.co/front/assets/huggingface_logo-noborder.svg" alt="Hugging Face">
+                      </span>
+                      <span>Knowledge Base</span>
+                    </a>
+                  </span>
+
+
+
+                </a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<!-- Teaser figure -->
+<section class="section teaser">
+  <div class="container is-max-desktop">
+    <figure class="image">
+      <img
+        src="static/images/EMSQA.drawio.png"
+        alt="Overview of Expert-CoT and ExpertRAG for EMS QA"
+        loading="lazy"
+        class="teaser-img"
+      />
+      <figcaption class="has-text-grey is-size-6 has-text-justified mt-3">
+        <b>Figure 1.</b>
+        Recent medical MCQA systems leverage <em>chain-of-thought (CoT)</em> prompting and
+        <em>retrieval-augmented generation (RAG)</em> to boost reasoning and use external
+        knowledge. However, they typically treat both reasoning and retrieval as
+        task-agnostic: the model sees a question, then reasons or retrieves without regard
+        to the <em>type of clinical expertise</em> required. In practice, clinicians first
+        identify the <strong>subject area</strong> (e.g., trauma, airway, pharmacology) and
+        the relevant <strong>certification level</strong> (EMR/EMT/AEMT/Paramedic), and then
+        apply protocols specific to that expertise. Existing benchmarks (e.g., MedQA,
+        MMLU-Med, MedMCQA) lack this structured notion of expertise and the aligned
+        knowledge resources, making it difficult to align retrieval and reasoning with
+        human clinical workflow.
+      </figcaption>
+    </figure>
+  </div>
+</section>
+
+<style>
+  .teaser-img { max-width: 980px; width: 100%; height: auto; margin: 0 auto; display: block; }
+</style>
+
+
+
+<!-- Paper abstract -->
+<section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <!-- TODO: Replace with your paper abstract -->
+          <p>
+            Large language models (LLMs) have shown promise in medical question answering, yet they often overlook the domain-specific expertise that professionals depend on—such as the clinical subject areas (e.g., trauma, airway) and the certification level (e.g., EMT, Paramedic). Existing approaches typically apply general-purpose prompting or retrieval strategies without leveraging this structured context, limiting performance in high-stakes settings. We address this gap with EMSQA, an 24.3K-question multiple-choice dataset spanning 10 clinical subject areas and 4 certification levels, accompanied by curated, subject area-aligned knowledge bases (40K documents and 2M tokens). Building on EMSQA, we introduce (i) Expert-CoT, a prompting strategy that conditions chain-of-thought (CoT) reasoning on specific clinical subject area and certification level, and (ii) ExpertRAG, a retrieval-augmented generation pipeline that grounds responses in subject area-aligned documents and real-world patient data. Experiments on 4 LLMs show that Expert-CoT improves up to 2.05% over vanilla CoT prompting. Additionally, combining Expert-CoT with ExpertRAG yields up to a 4.67% accuracy gain over standard RAG baselines. Notably, the 32B expertise-augmented LLMs pass all the computer-adaptive EMS certification simulation exams.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End paper abstract -->
+
+
+
+<!-- Dataset Statistics (polished) -->
+<section id="dataset-stats" class="section">
+  <div class="container is-max-desktop">
+    <h2 class="title is-3 has-text-centered">EMS-MCQA Dataset Statistics</h2>
+    <p class="has-text-grey has-text-centered mb-5">
+      A high-level snapshot of EMS-MCQA by subject area, certification level, and question attributes.
+    </p>
+
+    <div class="columns is-variable is-6 is-multiline is-vcentered">
+      <!-- Figure 2a -->
+      <div class="column is-12-tablet is-6-desktop">
+        <figure class="stat-card">
+          <div class="stat-media">
+            <!-- keep your path -->
+            <img src="static/images/EMSQA_statistics.png"
+                 alt="EMS-MCQA split statistics table" loading="lazy">
+          </div>
+          <figcaption class="stat-caption">
+            <b>Figure 2a.</b> EMS-MCQA statistics by split (train/val/test, public vs. private).
+          </figcaption>
+        </figure>
+      </div>
+
+      <!-- Figure 2b -->
+      <div class="column is-12-tablet is-6-desktop">
+        <figure class="stat-card">
+          <div class="stat-media">
+            <img src="static/images/statistics.png"
+                 alt="Distribution by certification level and subject area" loading="lazy">
+          </div>
+          <figcaption class="stat-caption">
+            <b>Figure 2b.</b> Question distribution by <em>certification level</em> and <em>subject area</em>.
+          </figcaption>
+        </figure>
+      </div>
+    </div>
+  </div>
+</section>
+
+<style>
+  /* unified cards */
+  .stat-card {
+    background: #fff;
+    border-radius: 10px;
+    padding: 14px;
+    box-shadow: 0 1px 1px rgba(0,0,0,.03), 0 6px 18px rgba(0,0,0,.06);
+    border: 1px solid rgba(0,0,0,.06);
+  }
+  /* same visual area for both figures */
+  .stat-media {
+    width: 100%;
+    aspect-ratio: 16 / 9;           /* keeps both boxes equal height */
+    overflow: hidden;
+    background: #fafafa;
+    border-radius: 8px;
+    display: flex; align-items: center; justify-content: center;
+  }
+  .stat-media img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;            /* no cropping; fits neatly */
+  }
+  .stat-caption {
+    margin-top: .6rem;
+    color: #6b7280;                 /* tailwind gray-500ish */
+    font-size: .95rem;
+    line-height: 1.35;
+  }
+  /* tighter mobile spacing */
+  @media (max-width: 768px) {
+    #dataset-stats .columns { row-gap: 1rem; }
+  }
+</style>
+
+
+
+<!-- ===================== Approach (Teaser) ===================== -->
+<section class="section teaser">
+  <div class="container is-max-desktop">
+    <h2 class="title is-3 has-text-centered">Approach</h2>
+
+    <figure class="image">
+      <!-- Teaser image -->
+      <img
+        src="static/images/ExpertRAG.drawio.png"
+        alt="High-level overview of Expert-CoT and ExpertRAG for EMS QA"
+        loading="lazy"
+        class="approach-img"
+      />
+
+      <figcaption class="has-text-grey is-size-6 has-text-justified mt-3">
+        <strong>Figure 3.</strong>
+        <strong>How to inject domain expertise into LLMs for EMS QA?</strong>
+        (1) <strong>Expertise-guided prompting (Expert-CoT):</strong>
+        Standard CoT encourages step-by-step reasoning but does not specify where to begin.
+        Expert-CoT anchors the model’s first steps by explicitly providing the
+        <em>subject area</em> and <em>certification level</em>.
+        (2) <strong>Expertise-guided RAG (ExpertRAG):</strong>
+        A lightweight filter predicts the question’s subject area and steers the retriever
+        toward matching knowledge-base entries and patient records; the LLM then conditions on
+        the predicted expertise plus the retrieved evidence to produce the answer.
+        We study three retriever strategies:
+        <strong>Global</strong> – retrieve the top M KB and N PR documents from the entire corpora
+        (baseline, no subject filtering);
+        <strong>Filter → Retrieve (FTR)</strong> – first filter KB/PR to the predicted subject area
+        ŝ<sub>i</sub>, then retrieve the top M and N;
+        <strong>Retrieve → Filter (RTF)</strong> – first retrieve a larger pool from full KB/PR
+        (e.g., 10×M and 10×N), then drop items whose subject area ≠ ŝ<sub>i</sub>, keeping the
+        best M and N.
+      </figcaption>
+    </figure>
+  </div>
+</section>
+
+<!-- Optional: a tiny style to keep the image nicely sized -->
+<style>
+  .approach-img {
+    display: block;
+    margin: 0 auto;
+    max-width: 950px;   /* adjust as you like */
+    width: 100%;
+    height: auto;
+  }
+</style>
+
+
+
+
+<section id="results" class="hero is-small">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <h2 class="title is-3 has-text-centered">Results</h2>
+
+      <div id="results-metrics-carousel" class="carousel results-carousel mt-4">
+        <div class="item">
+          <img src="static/images/radar_bar.png" alt="KG accurancy" loading="lazy"/>
+          <h2 class="subtitle has-text-centered">Where do SOTA LLMs shine or stumble on EMSQA across subject areas and certification levels?</h2>
+        </div>
+        <div class="item">
+          <img src="static/images/RQ1.png" alt="DKEC: overall performance" loading="lazy"/>
+          <h2 class="subtitle has-text-centered">How much does explicit expertise injected by Expert-CoT lift baseline accuracy?</h2>
+        </div>
+        <div class="item">
+          <img src="static/images/RQ2.png" alt="DKEC: language model sizes" loading="lazy"/>
+          <h2 class="subtitle has-text-centered">How much does explicit expertise injected by Expert-CoT and ExpertRAG lift baseline accuracy?</h2>
+        </div>
+        <div class="item">
+          <img src="static/images/RQ3.png" alt="DKEC: scaling labels" loading="lazy"/>
+          <h2 class="subtitle has-text-centered">Can expertise-aware LLMs meet the NREMT passing score at different certification levels??</h2>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<!-- Youtube video -->
+<section class="hero is-small is-light">
+  <div class="hero-body">
+    <div class="container">
+      <!-- Paper video. -->
+      <h2 class="title is-3">Video Presentation</h2>
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+        <div class="publication-video video-container">
+          <iframe
+            src=""
+            title="DKEC Video"
+            loading="lazy"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen>
+          </iframe>
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End youtube video -->
+
+
+
+
+<!-- Paper poster -->
+<section class="hero is-small is-light">
+  <div class="hero-body">
+    <div class="container">
+      <h2 class="title">Poster</h2>
+
+      <!-- TODO: Replace with your poster PDF -->
+      <iframe  src="" width="100%" height="550">
+          </iframe>
+        
+      </div>
+    </div>
+  </section>
+<!--End paper poster -->
+
+
+
+<!--BibTex citation -->
+  <section class="section" id="BibTeX">
+    <div class="container is-max-desktop content">
+      <div class="bibtex-header">
+        <h2 class="title">BibTeX</h2>
+        <button class="copy-bibtex-btn" onclick="copyBibTeX()" title="Copy BibTeX to clipboard">
+          <i class="fas fa-copy"></i>
+          <span class="copy-text">Copy</span>
+        </button>
+      </div>
+      <pre id="bibtex-code"><code></code></pre>
+    </div>
+</section>
+<!--End BibTex citation -->
+
+
+  <footer class="footer">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+
+          <p>
+            This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a> which was adopted from the <a href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.
+            You are free to borrow the source code of this website, we just ask that you link back to this page in the footer. <br> This website is licensed under a <a rel="license"  href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative
+            Commons Attribution-ShareAlike 4.0 International License</a>.
+          </p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- Statcounter tracking code -->
+  
+<!-- You can add a tracker to track page visits by creating an account at statcounter.com -->
+
+    <!-- End of Statcounter Code -->
+
+  </body>
+  </html>
