@@ -3,8 +3,8 @@
 Code repository: **Expert-Guided Prompting and Retrieval-Augmented Generation for EMS Question Answering**, AAAI 2026
 
 <p align="center">
-  🌐 <a href="https://xueren-ge.github.io/Expert-Guided-Prompting-and-Retrieval-Augmented-Generation-for-EMS-Question-Answering/">Project</a>
-  · 📄 <a href="">Paper</a>
+  🌐 <a href="https://uva-dsa.github.io/EMSQA">Project</a>
+  · 📄 <a href="https://arxiv.org/abs/2511.10900">Paper</a>
   · 🤗 <a href="https://huggingface.co/datasets/Xueren/EMS-MCQA">Dataset</a>
 </p>
 
