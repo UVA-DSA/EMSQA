@@ -177,3 +177,17 @@ check code/app-emtprep-com
 10. paramedic-medication-manual
 11. redcross-org
 12. youtube -->
+
+## Citations
+If you use this dataset in your work, please consider citing our paper:
+```bibtex
+@misc{ge2025expertguidedpromptingretrievalaugmentedgeneration,
+      title={Expert-Guided Prompting and Retrieval-Augmented Generation for Emergency Medical Service Question Answering}, 
+      author={Xueren Ge and Sahil Murtaza and Anthony Cortez and Homa Alemzadeh},
+      year={2025},
+      eprint={2511.10900},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2511.10900}, 
+}
+```
